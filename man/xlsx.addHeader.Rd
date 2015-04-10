@@ -30,7 +30,7 @@ to display a header on an excel workbook
 wb <- createWorkbook(type="xlsx")
 sheet <- xlsx::createSheet(wb, sheetName = "example")
 xlsx.addHeader(wb, sheet, value="Header 1",level=1, color="black")
-saveWorkbook(wb, "examples_add_header.xlsx")
-xlsx.openFile("examples_add_header.xlsx") # view the file
+saveWorkbook(wb, "example.xlsx")
+xlsx.openFile("example.xlsx") # view the file
 }
 

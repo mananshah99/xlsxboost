@@ -7,7 +7,7 @@
 xlsx.initializeRJava()
 }
 \description{
-Initializes RJava on a system by setting JAVA_HOME = ""
+Initializes RJava on a system by resetting JAVA_HOME
 }
 \examples{
 xlsx.initializeRJava() # initializes JAVA_HOME to "" for proper installation
